@@ -1,7 +1,13 @@
 class App < Sinatra::Base
 
-	get '/' do
-		erb :index
+
+get '/' do
+"welcome to the sanatra views lab"
+end 
+
+
+	get '/hello' do
+		erb :hello
 	end
 
 
