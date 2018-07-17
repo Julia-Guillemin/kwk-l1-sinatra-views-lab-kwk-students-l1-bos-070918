@@ -9,6 +9,8 @@ end
 	get '/hello' do
 		erb :hello
 	end
-
+get '/goodbey' do 
+  erb :goodbey
+end 
 
 end
