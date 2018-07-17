@@ -13,4 +13,6 @@ get '/goodbey' do
   erb :goodbey
 end 
 
+get '/nataly'
+
 end
